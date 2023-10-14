@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./jquery-3.7.0.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <h1 id="head">data</h1>
+    <button id="btn">hide</button>
+
+    <script>
+        // let element = document.getElementsByTagName("h1")
+        // console.log(element);
+
+    
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#head").hide()
+            });
+
+
+        })
+ 
+        
+    </script>
+    
+</body>
+</html>
